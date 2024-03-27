@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_name": "Web Development Bootcamp",
+      "img": "https://i.postimg.cc/8zjncVLS/coures1.jpg",
+      "credit": 5,
+      "price": 199.99,
+      "details": "This comprehensive bootcamp covers HTML, CSS, JavaScript, React, Node.js, and more. Gain practical skills through hands-on projects and build a portfolio to showcase your expertise."
+    },
+    {
+      "id": 2,
+      "course_name": "Python Programming",
+      "img": "https://i.postimg.cc/xdbmc6s8/coures2.jpg",
+      "credit": 4,
+      "price": 149.99,
+      "details": "Dive deep into Python programming with this course. Learn about data structures, object-oriented programming, web development with Django, data analysis with pandas, and more. Start your journey to becoming a Python expert!"
+    },
+    {
+      "id": 3,
+      "course_name": "Data Science Fundamentals",
+      "img": "https://i.postimg.cc/MZc7nbGh/course3.jpg",
+      "credit": 6,
+      "price": 249.99,
+      "details": "Unlock the world of data science with this comprehensive course. Explore statistical analysis, data visualization, machine learning, big data technologies, and more. Develop the skills to extract insights from data and make data-driven decisions."
+    },
+    {
+      "id": 4,
+      "course_name": "Mobile App Development",
+      "img": "https://i.postimg.cc/HxWCSkry/course4.jpg",
+      "credit": 5,
+      "price": 199.99,
+      "details": "Become a mobile app developer and create apps for iOS and Android platforms. Learn app development using React Native, a popular framework for building cross-platform mobile applications. Bring your app ideas to life and reach millions of users!"
+    },
+    {
+      "id": 5,
+      "course_name": "Machine Learning Masterclass",
+      "img": "https://i.postimg.cc/nzh64SWK/course5.jpg",
+      "credit": 6,
+      "price": 249.99,
+      "details": "Join this masterclass to delve into the fascinating world of machine learning. Gain expertise in supervised and unsupervised learning algorithms, neural networks, natural language processing, and more. Apply machine learning techniques to solve real-world problems and advance your career."
+    },
+    {
+      "id": 6,
+      "course_name": "Full Stack JavaScript",
+      "img": "https://i.postimg.cc/FRzBddfD/course6.jpg",
+      "credit": 5,
+      "price": 199.99,
+      "details": "This course covers both frontend and backend development with JavaScript. Learn to build interactive user interfaces with React and develop scalable server-side applications with Node.js. Acquire the skills to create full-stack web applications and launch your career as a full-stack developer."
+    },
+    {
+      "id": 7,
+      "course_name": "Cybersecurity Essentials",
+      "img": "https://i.postimg.cc/0Q1CxzYz/course7.jpg",
+      "credit": 4,
+      "price": 149.99,
+      "details": "Protect against cyber threats and safeguard sensitive information with this essential course. Explore cybersecurity principles, cryptography, network security, ethical hacking, and more. Gain the knowledge to secure digital assets and defend against cyber attacks."
+    },
+    {
+      "id": 8,
+      "course_name": "UX/UI Design",
+      "img": "https://i.postimg.cc/xdbmc6s8/coures2.jpg",
+      "credit": 4,
+      "price": 149.99,
+      "details": "Create delightful user experiences and intuitive user interfaces with this design course. Learn about user research, prototyping, wireframing, visual design, and usability testing. Develop the skills to design products that users love and enhance your career as a UX/UI designer."
+    },
+    {
+      "id": 9,
+      "course_name": "Digital Marketing Mastery",
+      "img": "https://i.postimg.cc/nzh64SWK/course5.jpg",
+      "credit": 4,
+      "price": 149.99,
+      "details": "Master the art and science of digital marketing with this comprehensive course. Dive into search engine optimization (SEO), social media marketing, email marketing, content marketing, and analytics. Acquire the skills to drive traffic, generate leads, and grow your business online."
+    }
+  ]
+  

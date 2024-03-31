@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types'
 import { LuDollarSign} from "react-icons/lu";
 import { IoBookOutline } from "react-icons/io5";
-const Course = ({course}) => {
+const Course = ({course, handleAddCourse}) => {
+    
     const {id, course_name, img, credit, price, details} = course;
     return (
         <div className=' p-6 bg-white place-content-center rounded-lg'>
@@ -18,7 +19,7 @@ const Course = ({course}) => {
                         </div>
                     
                     <div>
-                        <button className='w-full mt-6 p-2 bg-sky-500 text-white rounded-lg font-semibold border-transparent'>Select</button>
+                        <button className='w-full mt-6 p-2 bg-sky-500 text-white rounded-lg font-semibold border-transparent' onClick={() => {handleAddCourse(course_name)}}>Select</button>
                     </div>
            
         </div>
@@ -27,6 +28,7 @@ const Course = ({course}) => {
 
 Course.propTypes = {
     course: PropTypes.func,
+    handleAddCourse: PropTypes.func
 }
 
 export default Course;

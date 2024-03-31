@@ -7,7 +7,9 @@ const Course = ({course, handleAddCourse}) => {
     return (
         <div className=' p-6 bg-white place-content-center rounded-lg'>
             
-                    <img src={img} className="rounded-xl" alt="" height = "200px" width="auto"/><br></br>
+                    <div className='display: flex; justify-content: center;'>
+                    <img src={img} className="rounded-xl" alt="" height = "200px" width="auto"/>    
+                    </div><br></br>
                     
                         <p className='font-semibold text-lg'>{course_name}</p>
                         <p className='text-slate-600 text-s'>{details.slice(0,130)}...</p>

@@ -8,11 +8,13 @@ function App() {
   const [selectCourse, setSelectCourse] = useState([]);
   const [allCredit, setAllCredit] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0);
+  const [remainingHour, setRemainingHour] = useState(20);
 
   const handleAddCourse = (course) =>{
     const {id, course_name, img, credit, price, details} = course;
 
-    // Add Selected Course
+    if(allCredit + credit < 21){
+      // Add Selected Course
 
     const newSelectCourse = [...selectCourse, course];
     setSelectCourse(newSelectCourse);
@@ -27,6 +29,14 @@ function App() {
     const newPrice = totalPrice + price;
     setTotalPrice(newPrice);
 
+    // Calculate Remaining Hour
+
+    const newRemainingHour = remainingHour - credit;
+    setRemainingHour(newRemainingHour);
+
+    }
+
+    
   
   }
 
@@ -40,6 +50,7 @@ function App() {
         selectCourse={selectCourse}
         allCredit={allCredit}
         totalPrice={totalPrice}
+        remainingHour={remainingHour}
         >
         </Details>
       </div>

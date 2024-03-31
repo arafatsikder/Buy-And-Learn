@@ -19,7 +19,7 @@ const Course = ({course, handleAddCourse}) => {
                         </div>
                     
                     <div>
-                        <button className='w-full mt-6 p-2 bg-sky-500 text-white rounded-lg font-semibold border-transparent' onClick={() => {handleAddCourse(course_name)}}>Select</button>
+                        <button className='w-full mt-6 p-2 bg-sky-500 text-white rounded-lg font-semibold border-transparent' onClick={() => {handleAddCourse(course)}}>Select</button>
                     </div>
            
         </div>

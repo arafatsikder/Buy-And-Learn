@@ -1,6 +1,6 @@
 import { PropTypes } from "prop-types";
 import Detail from "../Detail/Detail";
-const Details = ({selectCourse}) => {
+const Details = ({selectCourse, allCredit, totalPrice}) => {
     return (
         <div className="w-3/12">
             <div className="px-10 py-4 mx-10 bg-white rounded-lg">
@@ -11,9 +11,9 @@ const Details = ({selectCourse}) => {
             </div>
             {selectCourse.map((course,idx) => <Detail key={idx} course={course}></Detail>)}
             <hr />
-            <p>Total Credit Hour : </p>
+            <p>Total Credit Hour : {allCredit} </p>
             <hr />
-            <p>Total Price : 0 USD</p>
+            <p>Total Price : {totalPrice} USD</p>
             </div>
         </div>
     );
@@ -21,6 +21,9 @@ const Details = ({selectCourse}) => {
 
 Details.propTypes = {
     selectCourse: PropTypes.func,
+    totalPrice: PropTypes.func,
+    allCredit: PropTypes.func,
+
 }
 
 export default Details;
